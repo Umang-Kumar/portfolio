@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/36a2eecd-669d-49e2-bf3e-bfc713ce5eee/resourceGroups/portfolioDjango/providers/Microsoft.Web/sites/umang",
+    "appService.deploySubpath": "."
+}
