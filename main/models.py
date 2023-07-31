@@ -151,9 +151,9 @@ class Blog(models.Model):
     class Meta:
         verbose_name_plural = 'Blog Profiles'
         verbose_name = 'Blog'
-        ordering = ["timestamp"]
+        ordering = ["-timestamp"]
 
-    timestamp = models.DateTimeField(auto_now_add=True)
+    timestamp = models.DateTimeField(blank=True, null=True)
     author = models.CharField(max_length=200, blank=True, null=True)
     name = models.CharField(max_length=200, blank=True, null=True)
     description = models.CharField(max_length=500, blank=True, null=True)

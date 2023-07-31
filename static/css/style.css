@@ -477,9 +477,9 @@ a, .btn {
 .sliderOuter .swiper-button-next.swiperBtnStyle {
   right: -50px;
 }
-.sliderOuter .swiper-button-prev.swiperBtnStyle {
+/* .sliderOuter .swiper-button-prev.swiperBtnStyle {
   left: -50px;
-}
+} */
 .sliderOuter .swiper-slide {
   height: auto;
 }
@@ -512,12 +512,15 @@ a, .btn {
 }
 
 
-
 .testimonialCol {
-  padding-top: 35px;
+  padding: 35px 0;
 }
+
 .tContentCol > p:last-child {
   margin-bottom: 0;
+}
+.padding_remove{
+  padding-bottom: unset;
 }
 .tImgCol {
 	width: 95px;
@@ -543,7 +546,7 @@ a, .btn {
   font-size: 16px;
 }
 .swiperBtnStyle.swiper-button-prev {
-	left: 2px;
+  left: -50px;
 }
 .swiperBtnStyle.swiper-button-next {
 	right: 2px;
@@ -666,9 +669,9 @@ body.navToggleActive {
   .sliderOuter .swiper-button-next.swiperBtnStyle {
     right: -20px;
   }
-  .sliderOuter .swiper-button-prev.swiperBtnStyle {
+  /* .sliderOuter .swiper-button-prev.swiperBtnStyle {
     left: -20px;
-  }
+  } */
   .navCol a {
   	font-size: 16px;
   }
@@ -830,24 +833,24 @@ body.navToggleActive {
 }
 
 @media(max-width:575px) {
-  .sliderOuter .swiper-button-prev.swiperBtnStyle ,
+  /* .sliderOuter .swiper-button-prev.swiperBtnStyle ,
   .sliderOuter .swiper-button-next.swiperBtnStyle {
     display: none;
-  }
+  } */
   .testimonialSlider .swiper-slide {
   	padding: 0 0px 50px;
   }
   .swiperBtnStyle.swiper-button-next {
   	right: auto;
   	top: auto;
-  	bottom: 0;
+  	bottom: -45px;
   	left: 50%;
   	margin-left: 5px;
   }
   .swiperBtnStyle.swiper-button-prev {
   	left: auto;
   	top: auto;
-  	bottom: 0;
+  	bottom: -45px;
   	right: 50%;
   	margin-right: 5px;
   }
@@ -880,8 +883,24 @@ body.navToggleActive {
   	font-size: 14px;
   }
 }
+.cert_achi{
+  padding-bottom: 70px;
+}
 
-input[type=text], input[type=email], select, textarea {
+.experience{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.experience-card{
+  width: 100%;
+  height: 100%;
+}
+
+input[type=text], 
+input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
