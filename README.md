@@ -1,5 +1,5 @@
 # resume_app
 
-Hi there.
-This is the a Django app that helps you to digitize your resume.
-With any luck, you will stand out in a round and land your dream job
+Namaste people.
+This is me!! Get to know me here on my portfolio it includes everything my experiences, my blogs, achievements and much more.
+It's hosted [here](https://umangkumar.pythonanywhere.com).
